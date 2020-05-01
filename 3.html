@@ -23,10 +23,31 @@
    text-decoration:none;
  }
 
+
  h1 { font-size: 60px;
    text-align:center;
+   border-bottom: 1px solid black;
+   padding: 20px;
+   margin:0;
+    }
+    #grid ol{
+      border-right: 1px solid black;
+      width: 120px;
+      margin:0;
+      padding-top:20px;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
 
- }
+    #grid, #article{
+      padding-left: 0px;
+    }
+
+    body{
+      margin:0;
+    }
 
 </style>
 
@@ -35,18 +56,24 @@
 
 <body>
 <h1><a href="index.html">UX와 친구들</a></h1>
+<div id="grid">
   <ol>
     <li><a href="2.html">HCI</a></li>
     <li><a href="3.html">UX</a></li>
     <li><a href="4.html">Design thinking</a></li>
   </ol>
+  <div id="article">
+
     <h2>UX란 무엇인가</h2>
 
   UX는 사람을 이해하고 사람을 배려하는 나눔의 대화다<br>
   <img src="norman.png"><br>
   <a href ="https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%A9%EC%9E%90_%EA%B2%BD%ED%97%98" target="_blank" title ="wikipedia"><u>사용자 경험</u></a><strong>(User Experience, UX)</strong>은 사용자가 어떤 시스템, 제품, 서비스를 직·간접적으로 이용하면서 느끼고 생각하게 되는 지각과 반응, 행동 등 총체적 경험을 말한다.
 
-  <p style="margin-top:45px;"">사용자 경험은 HCI 연구에서 사용된 개념이며, 아직도 많은 사용자 경험의 원리가 컴퓨터 공학 분야의 소프트웨어 및 하드웨어 개발에서 비롯되고 있다. 이 개념은 현재에 와서는 컴퓨터 제품뿐만 아니라 산업을 통해 제공되는 서비스, 상품, 프로세스, 사회와 문화에 이르기까지 널리 응용되고 있다. 사용자 경험을 개발, 창출하기 위해서 학술적, 실무적으로 이를 만들어내고자 하는 일을 사용자 경험 디자인이라고 하며 영역에 따라 제품 디자인, 상호작용 디자인, 사용자 인터페이스 디자인, 정보 아키텍처, 사용성 등의 분야에서 주로 연구 개발되고 있다. 그러나 사용자 경험은 다학제적이며 다분야의 총체적 시각에서 접근해나가야 하는 핵심 원리를 바탕으로 한다.
+  <p style="margin-top:45px;">사용자 경험은 HCI 연구에서 사용된 개념이며, 아직도 많은 사용자 경험의 원리가 컴퓨터 공학 분야의 소프트웨어 및 하드웨어 개발에서 비롯되고 있다. 이 개념은 현재에 와서는 컴퓨터 제품뿐만 아니라 산업을 통해 제공되는 서비스, 상품, 프로세스, 사회와 문화에 이르기까지 널리 응용되고 있다. 사용자 경험을 개발, 창출하기 위해서 학술적, 실무적으로 이를 만들어내고자 하는 일을 사용자 경험 디자인이라고 하며 영역에 따라 제품 디자인, 상호작용 디자인, 사용자 인터페이스 디자인, 정보 아키텍처, 사용성 등의 분야에서 주로 연구 개발되고 있다. 그러나 사용자 경험은 다학제적이며 다분야의 총체적 시각에서 접근해나가야 하는 핵심 원리를 바탕으로 한다.
+  </div>
+</div>
+
 </body>
 
 </html>
